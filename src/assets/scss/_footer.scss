@@ -1,0 +1,42 @@
+/*
+// 11. Footer
+*/
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255 255 255 / 4%);
+  padding: 20px 10% 15px 10%;
+  border-top: 4px solid #252539;
+   align-items: center;
+
+    position: absolute;
+
+    bottom: 0;
+
+
+
+  bottom: 0px;
+   .navbar-center{
+    display: flex;
+    list-style: none;
+    color: $white;
+    margin-bottom: 0;
+    align-items: center;
+
+    .nav-link{
+      color: azure ;
+    }
+   }
+
+
+}
+.footer-alt {
+    background: darken($dark, 11%);
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!-- Loader -->
+<div id="preloader" *ngIf="isLoading">
+  <div id="status">
+    <div class="spinner"></div>
+  </div>
+</div>
+
+  <!--Navbar Start-->
+
+
+  <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
+    <div class="container ">
+
+      <!-- LOGO -->
+      <a class="navbar-brand logo" href="/">
+        <img src="assets/images/logo-dark.png" alt="" class="logo-dark" height="45" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"  >
+        <i class="mdi mdi-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarCollapse">
+        <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
+          <li class="nav-item home"    >
+
+            <a   routerLink=""  class="nav-link"><i class="mdi mdi-home icon-home"></i> الصفحة الرأيسية</a>
+          </li>
+          <li class="nav-item"  >
+            <a href="javascript: void(0);"  class="nav-link"><i class="mdi mdi-message icon-home"></i> تواصل معنا </a>
+          </li>
+          <li class="nav-item" [ngClass]=" ">
+            <a href="javascript: void(0);"   class="nav-link"> <i class="mdi mdi-account-group icon-home"></i> من نحن </a>
+          </li>
+          <li class="nav-item" [ngClass]=" ">
+            <a routerLink="/service"   class="nav-link"  ><i class="mdi mdi-head-alert icon-home"></i> اسئلة شائعة </a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav navbar-center">
+          <button   class="btn btn-success font-size-24" style="font-size:22px !important">  <i class="mdi mdi-cart icon-home"> </i>  اشتري الان </button>
+
+          <li class="nav-item">
+            <a href="javascript: void(0);" class="nav-link" >  <i class="mdi mdi-alert-circle-outline icon-home"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+<router-outlet></router-outlet>
+
+
+<app-footer></app-footer>
+
