@@ -24,7 +24,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ScrollToModule.forRoot(),
     NgbModalModule,
     NgxYoutubePlayerModule,
-    NgbModule
-  ]
+    NgbModule,
+   ]
 })
 export class PagesModule { }

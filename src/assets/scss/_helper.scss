@@ -208,3 +208,10 @@ stroke-width: 3px;
 position: relative;
 top: -2px;
 }
+
+.card{
+  border: 0 !important;
+  margin-bottom: 10px;
+  background:rgba($white, 0.70);
+  border-radius: 15px;
+}

@@ -20,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     PagesModule,
     SharedModule,
-    NgbModule
+    NgbModule,
+
    ],
   providers: [],
   bootstrap: [AppComponent]
