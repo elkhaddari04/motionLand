@@ -28,13 +28,13 @@
             <a   routerLink=""  class="nav-link"><i class="mdi mdi-home icon-home"></i> الصفحة الرأيسية</a>
           </li>
           <li class="nav-item"  >
-            <a href="javascript: void(0);"  class="nav-link"><i class="mdi mdi-message icon-home"></i> تواصل معنا </a>
+            <a href="javascript: void(0);"   routerLink="/service"  class="nav-link"><i class="mdi mdi-message icon-home"></i> خدماتنا </a>
           </li>
-          <li class="nav-item" [ngClass]=" ">
-            <a href="javascript: void(0);"   class="nav-link"> <i class="mdi mdi-account-group icon-home"></i> من نحن </a>
+          <li class="nav-item" >
+            <a routerLink="/qustion"    class="nav-link"> <i class="mdi mdi-account-group icon-home"></i> من نحن </a>
           </li>
-          <li class="nav-item" [ngClass]=" ">
-            <a routerLink="/service"   class="nav-link"  ><i class="mdi mdi-head-alert icon-home"></i> اسئلة شائعة </a>
+          <li class="nav-item"  >
+            <a routerLink="/service"    class="nav-link"  ><i class="mdi mdi-head-alert icon-home"></i> اسئلة شائعة </a>
           </li>
 
         </ul>
@@ -55,4 +55,10 @@
 
 
 <app-footer></app-footer>
+
+
+<button type="button" class="btn btn-outline-secondary mr-2" placement="top"
+        ngbPopover="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." popoverTitle="Popover on top">
+  Popover on top
+</button>
 

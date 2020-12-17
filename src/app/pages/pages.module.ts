@@ -10,18 +10,21 @@ import { PagesRoutingModule } from './pages-routing.module';
 
 import { SharedModule } from '../shared/shared.module';
 import { ServiceComponent } from './service/service.component';
-import { Service2Component } from './service2/service2.component';
+import { OurTeamComponent } from './our-team/our-team.component';
+import { QustionComponent } from './qustion/qustion.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [IndexComponent, ServiceComponent, Service2Component, ],
+  declarations: [IndexComponent, ServiceComponent, OurTeamComponent, QustionComponent, ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     SharedModule,
     ScrollToModule.forRoot(),
     NgbModalModule,
-    NgxYoutubePlayerModule
+    NgxYoutubePlayerModule,
+    NgbModule
   ]
 })
 export class PagesModule { }

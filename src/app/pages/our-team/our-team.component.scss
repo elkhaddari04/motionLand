@@ -1,0 +1,34 @@
+.cards{
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.mycard{
+  background: #32325C;
+  margin: 10px;
+  color: white;
+  min-width: 500px;
+  padding: 30px ;
+  display: flex;
+  align-items: center;
+   border-radius: 15px;
+  text-align: right;
+  justify-content: center;
+}
+
+img{
+
+  height: 125px;
+  border-radius: 50%;
+
+}
+
+.dataProfil{
+  margin: 15px;
+
+}
