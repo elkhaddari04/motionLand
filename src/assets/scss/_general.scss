@@ -3,6 +3,34 @@
 */
 
 
+
+html{
+  direction: rtl !important;
+  height: 100%;
+  position: relative;
+  font-size: 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px)
+{
+  html{
+    direction: rtl !important;
+    height: 100%;
+    position: relative;
+    font-size: 8.5px;
+  }
+}
+
+app-root {
+  min-height: 100%;
+  display: block;
+  position: relative;
+  padding-bottom: 19.6rem; // height of the footer
+
+  }
+
+
 a {
     text-decoration: none !important;
     outline: none;
@@ -12,17 +40,9 @@ body {
     color: $dark;
     background: $body-bg;
     font-weight: 500;
-
-height: 100%;
-
-position: relative;
+    height: 100%;
+    position: relative;
 }
-
-
-
-
-
-
 
 p {
     line-height: 1.8;
@@ -34,23 +54,3 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-html{
-  direction: rtl !important;
-  height: 100%;
-
-  position: relative;
-}
-
-
-
-app-root {
-
-  min-height: 100%;
-
-  display: block;
-
-  position: relative;
-
-  padding-bottom: 196px; // height of the footer
-
-  }

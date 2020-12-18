@@ -2,10 +2,12 @@
 // 7. Why Choose Us
 */
 
-
+.bg-darknes{
+  background:rgba($color:white, $alpha: 0.05)
+}
 .ourteam{
    background-color: #dbcba0;
-   border-radius: 20px;
+   border-radius: 2rem;
 }
 
 
@@ -13,6 +15,6 @@
     // position: absolute;
     // top: 5px;
     // right: 5px;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 

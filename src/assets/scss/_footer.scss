@@ -7,17 +7,12 @@
   display: flex;
   justify-content: space-between;
   background-color: rgb(255 255 255 / 4%);
-  padding: 20px 10% 15px 10%;
-  border-top: 4px solid #252539;
-   align-items: center;
-
-    position: absolute;
-
-    bottom: 0;
-
-
-
+  padding: 2rem 20% 2rem 20%;
+  border-top: 0.4rem solid #252539;
+  align-items: center;
+  position: absolute;
   bottom: 0px;
+  font-size: 1.5rem;
    .navbar-center{
     display: flex;
     list-style: none;
@@ -40,3 +35,45 @@
 
 
 
+@media (min-width: 200px) and (max-width: 768px) {
+.btn{
+  margin: 0;
+}
+.footer {
+   display: flex;
+  background-color: rgb(255 255 255 / 4%);
+  border-top: 0.4rem solid #252539;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  bottom: 0px;
+  font-size: 1rem;
+  flex-wrap: wrap;
+   .navbar-center{
+     margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: $white;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    .nav-link{
+      color: azure ;
+    }
+   }
+
+
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px)
+{
+.footer{
+  padding: 2rem 5% 2rem 5%;
+
+}
+
+}

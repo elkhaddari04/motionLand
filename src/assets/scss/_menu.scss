@@ -12,7 +12,7 @@
 }
 
 .navbar-custom {
-    padding: 18px 0px;
+    padding: 1.8rem 0px;
     width: 100%;
      z-index: 999;
     margin-bottom: 0px;
@@ -29,27 +29,27 @@
     .navbar-nav {
         li {
             a {
-                line-height: 26px;
+                line-height: 2.6rem;
                 color: $white;
-                font-size: 16px;
+                font-size: 1.6rem;
                 font-weight: 100;
                 transition: all 0.3s;
                 background-color: transparent !important;
-                padding: 12px;
-                margin-left: 30px !important;
+                padding: 1.2rem;
+                margin-left: 3rem !important;
             }
 
             @media (min-width: 1000px) and (max-width: 1200px){
               a {
-                line-height: 26px;
+                line-height: 2.6rem;
                 color: $white;
-                font-size: 14px;
+                font-size: 1.4rem;
                 font-weight: 100;
                 transition: all 0.3s;
                 background-color: transparent !important;
-                padding: 12px;
+                padding: 1.2rem;
 
-                margin-left: 25px !important;
+                margin-left: 2.5rem !important;
             }
 
 
@@ -66,7 +66,7 @@
         }
         li.active{
           background-color: rgba($primaryObcity, 0.7) !important;
-          border-radius: 5px;
+          border-radius: 0.5rem;
         }
         li.active a, li a:hover, li a:active {
             color: $white !important;
@@ -79,8 +79,8 @@
           }
 
           .icon-home{
-            font-size: 20px;
-            top: 3px;
+            font-size: 2rem;
+            top: 0.2rem;
             position: relative;
           }
     }
@@ -88,7 +88,7 @@
 
     .navbar-toggles {
         padding: .25rem .75rem;
-        font-size: 18px;
+        font-size: 1.8rem;
         background: 0 0;
         border: 1px solid transparent;
         color: $white;
@@ -105,8 +105,8 @@
 }
 
 .navbar-toggler {
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 2.4rem;
+    margin-top: 0.5rem;
     margin-bottom: 0px;
     color: $white;
 }
@@ -119,9 +119,9 @@
 }
 
 .menu-toggle {
-    padding: 4.5px 10px !important;
+    padding: 0.45rem 0.1rem !important;
     span {
-        line-height: 27px;
+        line-height: 0.27rem;
     }
 }
 
@@ -198,7 +198,7 @@
 
             }
             .icon-home{
-              font-size: 20px;
+              font-size: 2rem;
             }
         }
         &>.container {
@@ -223,7 +223,7 @@
         }
     }
     .navbar-toggler {
-        font-size: 24px;
+        font-size: 2.4rem;
         margin-top: 0px;
         margin-bottom: 0px;
         color: $white;
@@ -231,8 +231,8 @@
 
     }
     .navbar-collapse {
-        padding: 0 20px;
-        margin-top: 10px;
+        padding: 0 2rem;
+        margin-top: 1rem;
         text-align: center;
 
     }
@@ -248,7 +248,7 @@
 
 .mob-end{
   text-align: right !important;
-  margin: 3PX;
+  margin: 0.3rem;
 }
 
 

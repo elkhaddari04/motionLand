@@ -1,6 +1,6 @@
 .cards{
   width: 100%;
-  padding: 10px;
+  padding: 0.1rem;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -10,25 +10,25 @@
 
 .mycard{
   background: #32325C;
-  margin: 10px;
+  margin: 0.1rem;
   color: white;
-  min-width: 500px;
-  padding: 30px ;
+  min-width: 50rem;
+  padding: 3rem ;
   display: flex;
   align-items: center;
-   border-radius: 15px;
+   border-radius: 1.5rem;
   text-align: right;
   justify-content: center;
 }
 
 img{
 
-  height: 125px;
+  height: 12.5rem;
   border-radius: 50%;
 
 }
 
 .dataProfil{
-  margin: 15px;
+  margin: 1.5rem;
 
 }

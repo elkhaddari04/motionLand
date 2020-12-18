@@ -12,40 +12,40 @@
 
 // Hero 1
 .hero-1-bg {
-    padding: 80px 0 90px;
+    padding: 8rem 0 5rem;
     background: rgba($primary, 0.025);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     .hero-1-title {
-        font-size: 52px;
+        font-size: 5.2rem;
         font-weight: 100;
     }
     .subscribe-form {
         form {
             position: relative;
-            max-width: 600px;
+            max-width: 6rem;
             margin: 0px auto;
         }
         input {
-            padding: 17px 20px;
+            padding: 1.7rem 2rem;
             width: 100%;
             border: none;
             outline: none !important;
-            padding-right: 160px;
-            padding-left: 20px;
+            padding-right: 16rem;
+            padding-left: 2rem;
             background-color: darken($gray-200, 1%);
-            border-radius: 4px;
+            border-radius: 0.4rem;
         }
         button {
             // position: absolute;
             // top: 5px;
             // right: 5px;
-            margin-left: 10px;
+            margin-left: 1rem;
         }
         ::placeholder {
-            font-size: 16px;
+            font-size: 1.6rem;
             color: lighten($secondary, 10%);
         }
     }
@@ -55,7 +55,7 @@
 
 // Hero 2
 .hero-2-bg {
-    padding: 260px 0 280px;
+    padding: 26rem 0 28rem;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,25 +64,25 @@
 }
 
 .hero-2-title {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 100;
 }
 
 // Hero 3
 .hero-3-bg {
-    padding: 80px 0 0px;
+    padding: 8rem 0 0px;
     background-color: $gray-100;
     border-bottom: 1px solid darken($gray-100, 1%);
     .hero-3-title {
-        font-size: 44px;
+        font-size: 4.4rem;
     }
     .play-icon-circle {
         border: 2px solid $dark;
-        height: 46px;
-        font-size: 24px;
-        width: 46px;
+        height: 4.6rem;
+        font-size: 2.4rem;
+        width: 4.6rem;
         color: $dark;
-        line-height: 43px;
+        line-height: 4.3rem;
         text-align: center;
         border-radius: 50%;
         display: inline-block;
@@ -98,7 +98,7 @@
 
 // Hero 4
 .hero-4-bg {
-    padding: 210px 0 170px;
+    padding: 21rem 0 17rem;
     .hero-4-title {
         font-size: 48px;
         .text-bottom-border {
@@ -127,7 +127,7 @@
     }
     .hero-4-registration-form {
         box-shadow: 0 4px 16px rgba($black, .065);
-        padding: 40px;
+        padding: 4rem;
         .registration-form {
             .form-control {
                 border-color: darken($light, 6%);
@@ -150,7 +150,7 @@
     background-repeat: no-repeat;
     width: 100%;
     .hero-5-title {
-        font-size: 48px;
+        font-size: 4.8rem;
     }
     .bg-overlay {
         opacity: 0.60;
@@ -168,13 +168,13 @@
 
 // Hero 6
 .hero-6-bg {
-    padding: 250px 0 230px 0px;
+    padding: 25rem 0 23rem 0px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     .hero-6-title {
-        font-size: 44px;
+        font-size: 4.4rem;
     }
     .Subcribe-form {
         form {
@@ -203,12 +203,12 @@
 // ***** Responsive *****//
 @media (max-width: 576px) {
     .hero-1-title, .hero-2-title, .hero-4-title, .hero-5-title {
-        font-size: 36px !important;
+        font-size: 3.6rem !important;
     }
     .hero-6-bg {
-        padding: 150px 0 110px 0px;
+        padding: 15rem 0 11rem 0px;
         .hero-6-title {
-            font-size: 32px !important;
+            font-size: 3.2rem !important;
         }
         .Subcribe-form {
             input {
@@ -225,20 +225,20 @@
         }
     }
     .hero-2-bg {
-        padding: 130px 0 70px;
+        padding: 13rem 0 7rem;
     }
     .hero-3-bg {
-        padding: 130px 0 0px;
+        padding: 13rem 0 0px;
     }
     .hero-4-bg {
-        padding: 140px 0 110px;
+        padding: 14rem 0 11rem;
     }
 }
 
 @media (max-width: 1024px) {
     .hero-5-bg {
         height: auto !important;
-        padding: 170px 0 130px;
+        padding: 17rem 0 13rem;
         .bg-hero-overlay {
             background-image: none;
             background: $gray-100;

@@ -4,4 +4,13 @@
 
 .pricing{
   background-color: #2f305e;
+  border-radius: 2rem;
+}
+
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+  img .myimg-2{
+    max-width: 100%;
+  }
 }
