@@ -21,4 +21,13 @@ export class AppComponent implements OnInit {
       this.isLoading = false;
     }, 600);
   }
+
+
+  /**
+   * Toggle navbar
+   */
+  toggleMenu() {
+    document.getElementById('navbarCollapse').classList.toggle('show');
+  }
+
 }

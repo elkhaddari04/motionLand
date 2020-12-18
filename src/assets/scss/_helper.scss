@@ -215,3 +215,16 @@ top: -2px;
   background:rgba($white, 0.70);
   border-radius: 1.5rem;
 }
+
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  .nodisplay{
+    display: none !important;
+
+  }
+
+  .centerMobile{
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}

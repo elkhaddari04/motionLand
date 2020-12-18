@@ -34,13 +34,6 @@ export class IndexComponent implements OnInit {
   }
 
   /**
-   * Toggle navbar
-   */
-  toggleMenu() {
-    document.getElementById('navbarCollapse').classList.toggle('show');
-  }
-
-  /**
    * Login modal
    */
   loginModal(content) {
