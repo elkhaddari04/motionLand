@@ -9,8 +9,8 @@
     transition: all 0.5s;
     font-weight: 700;
     color: #fff !important;
-    margin-left: 2rem;
-    &:focus {
+    margin-left: 2rem !important;
+     &:focus {
         box-shadow: none !important;
     }
     &:hover {
