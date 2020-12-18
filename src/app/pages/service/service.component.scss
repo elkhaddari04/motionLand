@@ -1,7 +1,7 @@
 .card{
-  max-width: 3.5rem;
+  max-width: 35rem;
 
-  @media (max-width: 1200px) {
-      max-width: 100% !important;
+  @media (max-width: 1000px) {
+      min-width: 100% !important;
   }
 }

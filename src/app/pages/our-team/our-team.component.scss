@@ -1,6 +1,6 @@
 .cards{
   width: 100%;
-  padding: 0.1rem;
+  padding: 1rem;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -10,15 +10,16 @@
 
 .mycard{
   background: #32325C;
-  margin: 0.1rem;
+  margin: 1rem;
   color: white;
   min-width: 50rem;
-  padding: 3rem ;
+  padding: 2rem ;
   display: flex;
   align-items: center;
    border-radius: 1.5rem;
   text-align: right;
   justify-content: center;
+  font-size: 1.6rem;
 }
 
 img{
@@ -31,4 +32,8 @@ img{
 .dataProfil{
   margin: 1.5rem;
 
+}
+
+.my-bgwhite{
+  background-color: rgba($color: white, $alpha: 0.10);
 }
