@@ -25,12 +25,21 @@
 }
 
 #plants{
-  animation:fade-in-right  2s ;
+  animation:fade-in-right  1s ease-out ;
+  transform: translateX(-30px);
 
 }
 
 #paper{
   animation:fade-in-left  2s ;
+  transform:translateX(10px);
+
+
+}
+
+#graphice{
+  animation:fade-in-left-2  2s  infinite alternate;
+  transform:translateX(10px);
 
 }
 @keyframes test {
@@ -79,13 +88,15 @@
 @keyframes fade-in-right {
 
   0% {
-    transform:  translateX(100px);
+    transform:  translateX(50px);
   opacity: 0;
 
    }
 
+
+
   100% {
-     transform: translateX(0px);
+     transform: translateX(-30px);
      opacity: 1;
 
 }
@@ -95,17 +106,57 @@
 @keyframes fade-in-left {
 
   0% {
-    transform:  translateX(-100px);
+    transform:  translateX(-50px);
   opacity: 0;
 
    }
 
   100% {
-     transform: translateX(0px);
+     transform: translateX(10px);
      opacity: 1;
 
 }
 }
+
+
+
+@keyframes fade-in-left-2 {
+
+  0% {
+    transform:  translateY(-15px);
+
+   }
+
+  100% {
+     transform: translateY(20px);
+
+}
+}
+
+
+
+
+@keyframes fade-in-left-3 {
+
+  0% {
+    transform:  translateX(-50px);
+
+   }
+
+  100% {
+     transform: translateX(10px);
+
+}
+}
+
+
+
+#eld93p83ld8wm{
+  animation:fade-in-left-3  2s  infinite alternate;
+
+
+}
+
 
 
 
