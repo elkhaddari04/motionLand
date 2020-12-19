@@ -1,0 +1,113 @@
+
+
+#line-1{
+  animation: test 4s ease infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+
+#line-2{
+  animation: test 8s ease infinite;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+#fadein{
+  animation: fade-in  2s infinite alternate;
+
+}
+
+
+#fadein-2{
+  animation: fade-in-2  2s infinite alternate;
+
+}
+
+#plants{
+  animation:fade-in-right  2s ;
+
+}
+
+#paper{
+  animation:fade-in-left  2s ;
+
+}
+@keyframes test {
+  from{
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes fade-in {
+
+
+
+    0% {
+      transform:  translateX(30px);
+
+     }
+
+    100% {
+       transform: translateX(0px);
+
+}
+}
+
+
+
+@keyframes fade-in-2 {
+
+
+
+  0% {
+    transform:  translateX(-30px);
+
+   }
+
+  100% {
+     transform: translateX(0px);
+
+}
+}
+
+
+@keyframes fade-in-right {
+
+  0% {
+    transform:  translateX(100px);
+  opacity: 0;
+
+   }
+
+  100% {
+     transform: translateX(0px);
+     opacity: 1;
+
+}
+}
+
+
+@keyframes fade-in-left {
+
+  0% {
+    transform:  translateX(-100px);
+  opacity: 0;
+
+   }
+
+  100% {
+     transform: translateX(0px);
+     opacity: 1;
+
+}
+}
+
+
+
+
+
