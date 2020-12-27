@@ -14,6 +14,7 @@ import {
 } from 'angular-feather/icons';
 import { ScrollspyDirective } from './scrollspy.directive';
 import { HeaderComponent } from './header/header.component';
+import { AlertComponent } from './alert/alert.component';
 
 const icons = {
   Mail, Link, PhoneCall, Clock, MapPin, Facebook, Twitter, Instagram, Linkedin, Send, Calendar, User, Server, Rss, Layout, LifeBuoy,
@@ -22,12 +23,12 @@ const icons = {
 
 @NgModule({
   // tslint:disable-next-line: max-line-length
-  declarations: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, ScrollspyDirective, HeaderComponent],
+  declarations: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, ScrollspyDirective, HeaderComponent, AlertComponent],
   imports: [
     CommonModule,
     FeatherModule.pick(icons)
   ],
   // tslint:disable-next-line: max-line-length
-  exports: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, FeatherModule, ScrollspyDirective,HeaderComponent]
+  exports: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, FeatherModule, ScrollspyDirective,HeaderComponent,AlertComponent]
 })
 export class SharedModule { }

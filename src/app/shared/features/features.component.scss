@@ -9,7 +9,14 @@
  }
 
 
- .alert-start{
-   background-color: #36365f;
-  border-radius: 2rem;
+
+
+  @keyframes test {
+    from{
+      transform: rotateZ(0deg);
+    }
+
+    to {
+      transform: rotateZ(360deg);
+    }
   }

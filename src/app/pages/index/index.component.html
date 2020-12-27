@@ -1,10 +1,13 @@
   <div appScrollspy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)">
+
     <app-header> </app-header>
+    <app-alert></app-alert>
     <app-features></app-features>
     <app-services></app-services>
-
     <app-pricing></app-pricing>
     <app-blog></app-blog>
+
+
    </div>
 
   <ng-template #content let-c="close" let-d="dismiss">
