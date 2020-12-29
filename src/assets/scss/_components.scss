@@ -9,7 +9,7 @@
     transition: all 0.5s;
     font-weight: 700;
     color: #fff !important;
-    margin-left: 2rem !important;
+
      &:focus {
         box-shadow: none !important;
     }
@@ -93,18 +93,3 @@
 }
 
 
-
-.badge {
-    padding: 0.7rem 1.8rem;
-    font-size: 1.4rem;
-    box-shadow: 0 2px 1px rgba(90, 79, 220, 0.3);
-}
-
-@each $color, $value in $theme-colors {
-    .badge {
-        &.badge-soft-#{$color} {
-            background: rgba($value, 0.12);
-            color: #{$value};
-        }
-    }
-}

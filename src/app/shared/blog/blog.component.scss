@@ -1,0 +1,19 @@
+.info-contact{
+
+  max-width: 60% !important;
+  font-size: 2.5rem !important;
+  line-height: 3.8rem !important;
+  font-weight: 500 !important;
+}
+
+
+
+
+@media (min-width: 200px) and (max-width: 1024px) {
+  .info-contact{
+
+    min-width: 100% !important;
+    padding-bottom: 2rem;
+    text-align: center !important;
+  }
+}

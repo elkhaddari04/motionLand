@@ -23,8 +23,7 @@
 
       <div class="collapse navbar-collapse " id="navbarCollapse">
         <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
-          <li class="nav-item home"    >
-
+          <li class="nav-item home"  >
             <a   routerLink=""  class="nav-link"><i class="mdi mdi-home icon-home"></i>  الصفحة الرأيسية</a>
           </li>
           <li class="nav-item"  >
@@ -39,7 +38,7 @@
 
         </ul>
         <ul class="navbar-nav navbar-center">
-          <button   class="btn btn-success"  >  <i class="mdi mdi-cart icon-home"> </i>  اشتري الان </button>
+          <button   class="btn btn-success ml-4"  >  <i class="mdi mdi-cart icon-home"> </i>  اشتري الان </button>
 
           <li class="nav-item">
             <a href="javascript: void(0);" class="nav-link" >  <i class="mdi mdi-alert-circle-outline icon-home"></i>
@@ -53,7 +52,35 @@
 
 <router-outlet></router-outlet>
 
+<div class="footer mt-4    ">
 
-  <app-footer></app-footer>
+
+  <div class="buttons-footer">
+
+
+    <button   class="btn btn-light">  <i class="mdi mdi-cart icon-home"> </i>  طلب  الخدمة </button>
+    </div>
+
+
+    <ul class=" navbar-center" >
+      <li class="nav-item home"    >
+
+        <a   routerLink=""  class="nav-link"><i class="mdi mdi-home icon-home"></i>  الصفحة الرأيسية</a>
+      </li>
+      <li class="nav-item"  >
+        <a href="javascript: void(0);"   routerLink="/service"  class="nav-link"><i class="mdi mdi-message icon-home"></i> خدماتنا </a>
+      </li>
+      <li class="nav-item" >
+        <a routerLink="/ourteam"    class="nav-link"> <i class="mdi mdi-account-group icon-home"></i> من نحن </a>
+      </li>
+      <li class="nav-item"  >
+        <a routerLink="/qustion"    class="nav-link"  ><i class="mdi mdi-head-alert icon-home"></i> اسئلة شائعة </a>
+      </li>
+
+    </ul>
+
+
+
+  </div>
 
 

@@ -20,33 +20,7 @@ export class IndexComponent implements OnInit {
   }
 
 
-  /**
-   * Window scroll method
-   */
 
-
-  /**
-   * Section changed method
-   * @param sectionId specify the current sectionID
-   */
-  onSectionChange(sectionId: string) {
-    this.currentSection = sectionId;
-  }
-
-  /**
-   * Login modal
-   */
-  loginModal(content) {
-    this.modalService.open(content, { centered: true });
-  }
-
-  /**
-   * Register modal
-   * @param registercontent content
-   */
-  registerModal(registercontent) {
-    this.modalService.open(registercontent, { centered: true });
-  }
 
 
 

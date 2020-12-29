@@ -1,7 +1,9 @@
 /*
 // 1. General
 */
-
+*{
+  letter-spacing:normal !important;
+}
 
 
 html{
@@ -49,8 +51,7 @@ body {
     font-family: $font-primary;
     color: $dark;
     background: $body-bg;
-    font-weight: 500;
-    height: 100%;
+     height: 100%;
     position: relative;
 }
 
@@ -60,7 +61,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-secondary;
-    font-weight: 700;
-}
+ }
 
 

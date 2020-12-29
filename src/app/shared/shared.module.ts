@@ -5,7 +5,6 @@ import { FeaturesComponent } from './features/features.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
  import { ServicesComponent } from './services/services.component';
-import { FooterComponent } from './footer/footer.component';
 
 import { FeatherModule } from 'angular-feather';
 import {
@@ -23,12 +22,12 @@ const icons = {
 
 @NgModule({
   // tslint:disable-next-line: max-line-length
-  declarations: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, ScrollspyDirective, HeaderComponent, AlertComponent],
+  declarations: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, ScrollspyDirective, HeaderComponent, AlertComponent],
   imports: [
     CommonModule,
     FeatherModule.pick(icons)
   ],
   // tslint:disable-next-line: max-line-length
-  exports: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent, FooterComponent, FeatherModule, ScrollspyDirective,HeaderComponent,AlertComponent]
+  exports: [FeaturesComponent, PricingComponent, BlogComponent, ServicesComponent,  FeatherModule, ScrollspyDirective,HeaderComponent,AlertComponent]
 })
 export class SharedModule { }

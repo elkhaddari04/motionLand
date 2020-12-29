@@ -94,8 +94,18 @@
   font-size: 2.4rem;
 }
 
+.font-size-60 {
+  font-size: 6rem;
+}
 .title {
   text-shadow: 1px 2px 3px rgba($dark, 0.2);
+}
+
+
+.title-big {
+  font-size: 2.5rem;
+  line-height: 3.8rem;
+  font-weight: 400;
 }
 
 .hero-bottom-img {
@@ -110,7 +120,6 @@
     font-size: 1.9rem;
 }
 
-// icon
 
 //  icon
 .icon-size-15 {

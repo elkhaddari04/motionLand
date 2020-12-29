@@ -4,28 +4,110 @@
 
 .service{
   background: #dd645e;
-  border-radius: 2rem;
+  border-radius: $border-radius ;
 
 }
 
-.last-one{
-  background: #dbcba0;
-  border-radius:   2rem      ;
-
+.alert-start{
+  background: linear-gradient(50deg, #37365e 35%, #4a4977 100%) ;
+  border-radius:$border-radius ;
 }
 
+//aimtion clock
+#Vector1{
+  animation: rotate-line-small 4s ease infinite;
+  transform-box: fill-box;
+ }
 
+ #Layer8{
+  animation: TOGGLE 1s ease infinite alternate;
+ }
 
-@media (min-width: 200px) and (max-width: 768px) {
-  img .myimg{
-    max-width: 100%;
+ #Vector2{
+  animation: rotate-line-small 8s ease infinite;
+  transform-box: fill-box;
+ }
+
+ #Layer5{
+  animation: TOGGLE2 0.5s ease infinite alternate;
+  transform-box: fill-box;
+ }
+
+ #Layer7{
+  animation: TOGGLE3 0.5s ease infinite alternate;
+  transform-box: fill-box;
+ }
+
+ @keyframes rotate-line-small {
+  from{
+    transform: rotateZ(0deg);
   }
-
-
-.last-one{
-  background: #dbcba0;
-  border-radius: 2rem    ;
-
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
+
+
+@keyframes TOGGLE{
+  0% {
+    transform:  translateY(-30px);
+   }
+  100% {
+     transform: translateX(0px);
+
 }
+}
+
+@keyframes TOGGLE2{
+  0% {
+    transform: translateX(-20px) translateY(-20px);
+   }
+
+  100% {
+    transform: translateX(0px) translateY(0px);
+}
+}
+
+
+
+@keyframes TOGGLE3{
+  0% {
+    transform: translateX(20px) translateY(-20px);
+
+   }
+
+  100% {
+    transform: translateX(0px) translateY(0px);
+
+}
+}
+
+
+
+// 3 icone bttoem of features
+
+.card-icon{
+  flex: 1 1 10ch;
+  border-radius: $border-radius;
+  background-color: #ffffff00;
+  min-width: 30rem;
+  line-height: 1;
+  padding: 4rem;
+  min-height: 16rem;
+ }
+
+ .myicon{
+  font-size: 8rem;
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 2rem !important;
+  height: 16rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+

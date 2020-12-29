@@ -4,7 +4,7 @@
 
 .pricing{
   background-color: #2f305e;
-  border-radius: 2rem;
+  border-radius: $border-radius;
 }
 
 
@@ -13,4 +13,10 @@
   img .myimg-2{
     max-width: 100%;
   }
+}
+
+
+.last-one{
+  background: #dbcba0;
+  border-radius: $border-radius;
 }
