@@ -44,6 +44,23 @@ font-weight: 100;
       margin: 1rem;
     }
 }
+
+
+
+.list-hero-2{
+  list-style: none;
+  width: 100%;
+  padding-right: 0rem !important;
+  font-size: 2rem;
+  color: $muted;
+  margin: 1.5rem 0rem  2rem 0 !important;
+
+    .list-hero-element{
+      margin: 1rem;
+    }
+}
+
+
 .btn-big{
 font-size: 2.5rem !important;
 min-width: 100%;
