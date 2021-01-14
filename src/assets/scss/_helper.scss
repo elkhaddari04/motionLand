@@ -46,6 +46,7 @@
 }
 .bg-gradient-primary {
     background: linear-gradient(to top, $info 0%, $primary 100%);
+    border: 1px solid #ccc;
 }
 
 .line-height-1_6 {
@@ -104,6 +105,17 @@
 
 .title-big {
   font-size: 2.5rem;
+  line-height: 3.8rem;
+  font-weight: 400;
+}
+
+.title-big-2 {
+  font-size: 4.5rem;
+  line-height: 3.8rem;
+  font-weight: 600;
+}
+.title-big-1 {
+  font-size: 2rem;
   line-height: 3.8rem;
   font-weight: 400;
 }

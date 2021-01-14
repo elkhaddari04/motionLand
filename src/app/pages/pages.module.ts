@@ -10,8 +10,9 @@ import { ServiceComponent } from './service/service.component';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { QustionComponent } from './qustion/qustion.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CallComponent } from './call/call.component';
 @NgModule({
-  declarations: [IndexComponent, ServiceComponent, OurTeamComponent, QustionComponent, ],
+  declarations: [IndexComponent, ServiceComponent, OurTeamComponent, QustionComponent, CallComponent, ],
   imports: [
     CommonModule,
     PagesRoutingModule,

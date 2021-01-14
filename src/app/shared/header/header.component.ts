@@ -32,4 +32,9 @@ export class HeaderComponent implements OnInit {
     document.getElementById('navbarCollapse').classList.toggle('show');
   }
 
+  ContactUs() {
+    this.router.navigate(['/call']);
+      }
+
+
 }

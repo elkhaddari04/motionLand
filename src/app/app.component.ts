@@ -8,19 +8,33 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   // Loader
-  isLoading: boolean;
+  isLoading: boolean ;
+  isContact: boolean =true;
 
   constructor(private router: Router) {
      };
 
 
   ngOnInit() {
+
     this.isLoading = true;
 
     setTimeout(() => {
       this.isLoading = false;
     }, 600);
-  }
+
+   }
+
+   ngDoCheck()	{
+    if(this.router.url=="/call"){
+      this.isContact=false ;
+    }
+
+   }
+
+
+
+
 
 
   /**
