@@ -108,8 +108,22 @@
 
 
 
+.card-photo{
+  flex: 1 1 10ch;
+  border-radius: $border-radius;
+  background-color: #ffffff00;
+  min-width: 30rem;
+  line-height: 1;
 
+  min-height: 16rem;
+}
 
+.img-portflio{
+  width: 100%;
+    border-radius: 1rem;
 
+    opacity: 0.5;
+     padding: 5px;
+}
 
 
