@@ -9,9 +9,28 @@
 }
 
 .alert-start{
-  background: linear-gradient(50deg, #37365e 35%, #4a4977 100%) ;
+  background: linear-gradient(50deg, #36365fba 35%, #29294859 100%);
   border-radius:$border-radius ;
+  border: 1px solid white;
+    background-position: bottom;
+    position: relative;
+    overflow: hidden;
+
+
 }
+
+
+.alert-start img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
 
 //aimtion clock
 #Vector1{
@@ -93,7 +112,7 @@
   background-color: #ffffff00;
   min-width: 30rem;
   line-height: 1;
-  padding: 4rem;
+  padding: 4rem 0 4rem 0;
   min-height: 16rem;
  }
 

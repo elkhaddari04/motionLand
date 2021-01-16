@@ -28,6 +28,9 @@ export class AppComponent implements OnInit {
    ngDoCheck()	{
     if(this.router.url=="/call"){
       this.isContact=false ;
+    }else{
+      this.isContact=true ;
+
     }
 
    }

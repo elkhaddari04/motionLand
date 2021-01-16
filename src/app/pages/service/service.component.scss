@@ -5,3 +5,12 @@
       min-width: 100% !important;
   }
 }
+
+.card-2{
+  max-width: 25rem;
+
+  @media (max-width: 1000px) {
+      min-width: 40% !important;
+  }
+}
+
