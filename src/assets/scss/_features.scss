@@ -9,13 +9,13 @@
 }
 
 .alert-start{
-  background: linear-gradient(50deg, #36365fba 35%, #29294859 100%);
-  border-radius:$border-radius ;
+  border-radius: 2rem;
   border: 1px solid white;
-    background-position: bottom;
-    position: relative;
-    overflow: hidden;
-
+   position: relative;
+  background-image: linear-gradient(to right, #2f2f51bd, #2929489c), url(https://manon.qodeinteractive.com/wp-content/uploads/2019/01/home-8-rev-img-1.png);
+  background-position: initial;
+  background-size: cover;
+  overflow: hidden;
 
 }
 
