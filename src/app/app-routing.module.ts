@@ -4,6 +4,9 @@ import { ServiceComponent } from './pages/service/service.component';
 import {OurTeamComponent} from './pages/our-team/our-team.component';
 import {QustionComponent} from './pages/qustion/qustion.component';
 import { CallComponent} from './pages/call/call.component'
+import { CalldoneComponent} from './pages/calldone/calldone.component'
+
+
 const routes: Routes = [
   { path: '', loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule) },
   {path: 'service', component: ServiceComponent},
@@ -11,6 +14,8 @@ const routes: Routes = [
   {path: 'according', component: OurTeamComponent},
   {path: 'qustion', component: QustionComponent},
   {path: 'call', component: CallComponent},
+  {path: 'calldone', component: CalldoneComponent},
+
 
 ];
 

@@ -1,6 +1,8 @@
 
 <section class="section  ">
 
+<script type="text/javascript" > var submitted = false </script>
+
 
 <div class="container mt-5 ">
 
@@ -8,22 +10,23 @@
     <div class="col   bg-gradient-primary text-center p-5 text-white">
       <h1 class="title-big-2 mb-5 "> لنبدأ العمل على الفيديو الان  🎉 !  </h1>
       <h3 class="title-big-1 ">كل ما عليه الان هو تملأ الاستمارة اسفله  لنتواصل معك</h3>
-    <form class="m-5 ">
-      <div class="form-group">
-         <input type="email" class="form-control font-size-16 p-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="الاسم الكامل ">
-       </div>
-      <div class="form-group">
-         <input type="password" class="form-control font-size-16 p-5" id="exampleInputPassword1" placeholder=" ايميل ">
+
+
+
+
+
+
+    <form onsubmit="submitted=true;" id="form" name="form"  ngNoForm  action="https://docs.google.com/forms/d/e/1FAIpQLSeXj1XG7BihtfIoZRKJ6QxGu2SfCkB0QXLfaoYCi0Anja3cAA/formResponse"    method="post" target="hidden_iframe">
+      <div  class="form-group">       <input  class="form-control font-size-16 p-5" type="text"  placeholder=" الاسم الكامل "  name="entry.1880281134" required>
       </div>
-      <div class="form-group">
-        <input type="password" class="form-control font-size-16 p-5" id="exampleInputPassword1" placeholder="رقم الهاتف">
-     </div>
-       <button type="submit"  class="btn-whtsapp    btn btn-blue-light"  >
+      <div  class="form-group">          <input  class="form-control font-size-16 p-5"  placeholder=" ايميل " type="text"  name="entry.1815383766" required>
+      </div>
+      <div  class="form-group">         <input class="form-control font-size-16 p-5"  placeholder=" رقم هاتف " type="number"  name="entry.455290205" required>
+      </div>
+
+       <button type="submit"  class="btn-whtsapp    btn btn-blue-light"   >
       <h1 class=" font-size-30"> ارسل المعلومات الان  <i class="mdi mdi-arrow-left icon-home"> </i></h1>
-
       </button>
-
-
     </form>
   </div>
 
@@ -54,13 +57,11 @@
   <img src="assets/images/logo-dark.png" alt="" class="logo-dark m-3" height="45" />
   <p class="font-size-20">Copyright 2021 - motionland.ma  , All Rights Reserved  </p>
 </div>
-
-
 </div>
+
+
+
 </section>
 
 
-<!-- Why Choose Us End -->
-
-
-
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"  onload="if(submitted) {window.location='/calldone'}"> </iframe>

@@ -1,0 +1,30 @@
+.info-contact{
+
+  max-width: 50% !important;
+  font-size: 2.5rem !important;
+  line-height: 3.8rem !important;
+  font-weight: 500 !important;
+  padding: 0 1rem 0 1rem;
+
+}
+
+
+.btn-whtsapp{
+  font-size: 2.5rem !important;
+  background: rgb(23, 170, 15);
+  font-weight: 200;
+   min-height: 100% !important;
+   padding: 1rem;
+
+}
+
+
+
+@media (min-width: 200px) and (max-width: 1024px) {
+  .info-contact{
+
+    min-width: 100% !important;
+    padding-bottom: 2rem;
+    text-align: center !important;
+  }
+}
