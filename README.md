@@ -44,4 +44,4 @@
  
 ---
 <p>
-<b align="center" > ❤️  😀 This Project made with a lot of love and amusing so thank you mr  hichame toumi for this   ❤️  😀 </b> </p>
+<b align="center" > ❤️  😀 This Project made with a lot of love and amusing so thank you MR Hicham TOUMI for this   ❤️  😀 </b> </p>
