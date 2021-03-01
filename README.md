@@ -16,29 +16,29 @@
   
  ---  
 
-##  🚀 Screenshot full (index.php)  
+##  🚀 Screenshot full (https://motion-land.vercel.app/)  
   <img align="center" src="https://i.imgur.com/FfVSAfx.png" alt="demo" />
   
  ---
   
-## 🚀 services
+## 🚀 services (https://motion-land.vercel.app/service)  
 <img  align="center" src="https://i.imgur.com/uuLQtkf.png" alt="demo"/>
 
  ---
 
-## 🚀 team page
+## 🚀 team page (https://motion-land.vercel.app/ourteam)  
      
   <img  align="center" src="https://i.imgur.com/WTpkwv6.png"/>
   
  ---
  
-## 🚀 FQA page
+## 🚀 FQA page (https://motion-land.vercel.app/service)  
      
   <img  align="center" src="https://i.imgur.com/gAQX3pu.png"/>
   
  ---
 
-## 🚀 contact us page 
+## 🚀 contact us page  (https://motion-land.vercel.app/call)  
      
 <img  align="center" src="https://i.imgur.com/b1UUHfQ.png"/>
   
