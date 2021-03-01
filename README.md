@@ -8,6 +8,8 @@
 <b align="center" >📝 Angular  Version	:  9 </b> </BR>
 <b align="center" >📌  Files Included : 	Typescript Files, CSS Files,  </b></BR>
 <b align="center" > 🛠  Dependencies :  Bootstrap </b>
+<b align="center" > 👨‍💻  Demo  :  https://motion-land.vercel.app/ </b>
+
      </p>
 
  ---  
@@ -41,7 +43,10 @@
      
 <img  align="center" src="https://i.imgur.com/b1UUHfQ.png"/>
   
- 
+ ## 🚀 OTHER COMPONENT IN HOME PAGE  : 
+     
+<img  align="center" src="https://i.imgur.com/OFDsNkP.png"/>
+  
 ---
 <p>
 <b align="center" > ❤️  😀 This Project made with a lot of love and amusing so thank you MR Hicham TOUMI for this   ❤️  😀 </b> </p>
