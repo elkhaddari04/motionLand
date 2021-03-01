@@ -9,8 +9,7 @@
 <b align="center" >📌  Files Included : 	Typescript Files, CSS Files,  </b></BR>
 <b align="center" > 🛠  Dependencies :  Bootstrap </b>
 <b align="center" > 👨‍💻  Demo  :  https://motion-land.vercel.app/ </b>
-
-     </p>
+</p>
 
  ---  
   <img align="center" src="https://i.imgur.com/txJrv72.png" />
