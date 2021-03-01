@@ -20,28 +20,28 @@
   
  ---
   
-## 🚀 HEADER
+## 🚀 services
 <img  align="center" src="https://i.imgur.com/uuLQtkf.png" alt="demo"/>
 
  ---
 
-## 🚀 POST CARD
+## 🚀 team page
      
   <img  align="center" src="https://i.imgur.com/WTpkwv6.png"/>
   
  ---
  
-## 🚀 FOOTER
+## 🚀 FQA page
      
   <img  align="center" src="https://i.imgur.com/gAQX3pu.png"/>
   
  ---
 
-## 🚀 POST PAGE ( SINGLE.PHP )
+## 🚀 contact us page 
      
 <img  align="center" src="https://i.imgur.com/b1UUHfQ.png"/>
   
  
 ---
 <p>
-<b align="center" > ❤️  😀 This Project made with a lot of love and amusing so thank you mr  baddi for this   ❤️  😀 </b> </p>
+<b align="center" > ❤️  😀 This Project made with a lot of love and amusing so thank you mr  hichame toumi for this   ❤️  😀 </b> </p>
