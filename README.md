@@ -8,7 +8,7 @@
 <b align="center" >📝 Angular  Version	:  9 </b> </BR>
 <b align="center" >📌  Files Included : 	Typescript Files, CSS Files,  </b></BR>
 <b align="center" > 🛠  Dependencies :  Bootstrap </b></BR>
-<b align="center" > 👨‍💻  Demo  :  https://motion-land.vercel.app/ </b>
+<b align="center" > 👨‍💻  Demo  :  https://angularproject-gamma.vercel.app/pages/my-account </b>
 </p>
 
  ---  
