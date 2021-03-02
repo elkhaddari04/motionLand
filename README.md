@@ -11,6 +11,9 @@
 <b align="center" > 👨‍💻  Demo  :  https://angularproject-gamma.vercel.app/pages/my-account </b>
 </p>
 
+<p>
+A simple e-commerce single page appliction based on angular freamwork , mainly made for the graduation projects. made by ayoub el khadari   and supervised by Mr hicham toumi 
+</p>
  ---  
   <img align="center" src="https://i.imgur.com/txJrv72.png" />
   
