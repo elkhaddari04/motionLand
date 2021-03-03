@@ -23,7 +23,7 @@ export class PricingComponent implements OnInit {
       }
 
 
-  palyvideo1(){
+  palyvideo(){
     this.playver=!this.playver;
   }
   palyvideo2(){
