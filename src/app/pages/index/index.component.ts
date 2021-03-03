@@ -17,7 +17,10 @@ export class IndexComponent implements OnInit {
   constructor(private modalService: NgbModal) { }
 
   ngOnInit(): void {
+
+
   }
+
 
 
 

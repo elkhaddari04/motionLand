@@ -5,10 +5,11 @@ import { PagesModule } from './pages/pages.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { RouterModule } from '@angular/router';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { ReactiveFormsModule ,FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PagesModule,
     SharedModule,
     NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
 
    ],
   providers: [],
