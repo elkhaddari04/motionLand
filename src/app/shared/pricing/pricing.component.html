@@ -279,45 +279,49 @@
   <div class="text-white d-flex flex-wrap justify-content-around"      >
 
     <div class=" card-story  m-4    text-center rainbow"  >
-      <img   class="img-portflio" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barack_Obama_in_October_2016.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <iframe *ngIf="this.playver" style="height: 100% ; width: 100% !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/dq3f0wDz__Q?autoplay=1&rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img    *ngIf="!this.playver" class="img-portflio" src="https://i.imgur.com/uoInOQ2.png" alt="">
+      <p  *ngIf="!this.playver" (click)="palyvideo()" href="void" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
-        </a>
+      </p>
     </div>
 
 
     <div class=" card-story  m-4    text-center rainbow"  >
-      <img   class="img-portflio" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barack_Obama_in_October_2016.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <iframe *ngIf="this.playver2" style="height: 100% ; width: 100% !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/dq3f0wDz__Q?autoplay=1&rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img    *ngIf="!this.playver2" class="img-portflio" src="https://i.imgur.com/cdZB1Rv.png" alt="">
+      <p  *ngIf="!this.playver2" (click)="palyvideo2()" href="void" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
-        </a>
+      </p>
     </div>
 
 
     <div class=" card-story  m-4    text-center rainbow"  >
-      <img   class="img-portflio" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barack_Obama_in_October_2016.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <iframe *ngIf="this.playver3" style="height: 100% ; width: 100% !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/dq3f0wDz__Q?autoplay=1&rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img    *ngIf="!this.playver3" class="img-portflio" src="https://i.imgur.com/COZ4qDF.png" alt="">
+      <p  *ngIf="!this.playver3" (click)="palyvideo3()" href="void" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
-        </a>
+      </p>
     </div>
 
     <div class=" card-story  m-4    text-center rainbow"  >
-      <img   class="img-portflio" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barack_Obama_in_October_2016.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <iframe *ngIf="this.playver4" style="height: 100% ; width: 100% !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/dq3f0wDz__Q?autoplay=1&rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img    *ngIf="!this.playver4" class="img-portflio" src="https://i.imgur.com/H9fnz0d.png" alt="">
+      <p  *ngIf="!this.playver4" (click)="palyvideo4()" href="void" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
-        </a>
+      </p>
     </div>
 
 

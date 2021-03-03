@@ -7,6 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./pricing.component.scss']
 })
 export class PricingComponent implements OnInit {
+  playver : boolean = false ;
+  playver2 : boolean = false ;
+  playver3 : boolean = false ;
+  playver4 : boolean = false ;
 
   constructor(private router: Router) { }
 
@@ -17,5 +21,19 @@ export class PricingComponent implements OnInit {
   ContactUs2() {
     this.router.navigate(['/call']);
       }
+
+
+  palyvideo(){
+    this.playver=!this.playver;
+  }
+  palyvideo2(){
+    this.playver2=!this.playver;
+  }
+  palyvideo3(){
+    this.playver3=!this.playver;
+  }
+  palyvideo4(){
+    this.playver4=!this.playver;
+  }
 
 }
