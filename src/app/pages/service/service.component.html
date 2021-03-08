@@ -1,19 +1,11 @@
 
   <div class="container mt-4"  >
-
-
     <h1 class="hero-2-title p-5 m-2 text-white  text-right  text-shadow  ">
       <i class="mdi mdi-view-dashboard-outline icon-home"> </i>
-
-
         يمكنك اختيار الخدمة  المناسبة لك
-
         :
     </h1>
-
-
 <div class="text-white" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-
   <div class="card  m-2 p-4 text-center d-flex justify-content-center" style=" border-radius :2rem;      border-radius: 2rem;
     background-image:linear-gradient(to right, #3d2a4fc2, #3d2a4fc2), url(https://manon.qodeinteractive.com/wp-content/uploads/2019/01/home-8-rev-img-1.png);
       background-position: right;
@@ -21,7 +13,7 @@
   overflow: hidden;    ">
        <h1 class="pt-5  font-size-19-b  mb-4">  <i class="mdi mdi-file-video icon-home"> </i>  موشن غرافيك متكامل       </h1>
       <p class="m-3 font-size-19 mb-5 ">  عند طلــبك للخدمة ستــحصل على  فيديو بتقنية الموشن جرافيك مع تعليق صوتي بسعر خاص ومنافس     </p>
-        <button class="btn  text-white   mb-5 " style="background-color: #82498c !important; max-width:16 ; align-self: center;
+        <button   routerLink="/call"  class="btn  text-white   mb-5 " style="background-color: #82498c !important; max-width:16 ; align-self: center;
         margin: 0 !important; ">   <i class="mdi mdi-cart icon-home"> </i>  احتاج الى فيديو </button>
 
     </div>
@@ -36,8 +28,8 @@
            <p class="m-3 font-size-19 mb-5 ">
             ستحصل على فيديو مناسب لإطلاق حملتك الإعلانية على فيسبوك بسرعة كبيرة و بأقل تكلفة ممكنة لها
           </p>
-        <button    class="btn text-white   mb-5 " style="background-color: #ff7264 !important;  max-width:160px ; align-self: center;
-        margin: 0 !important; ">   <i class="mdi mdi-cart icon-home"> </i>  طلب  الخدمة </button>
+        <button  routerLink="/call"     class="btn text-white   mb-5 " style="background-color: #ff7264 !important;  max-width:18rem ; align-self: center;
+        margin: 0 !important; ">   <i class="mdi mdi-cart icon-home"> </i>  احتاج الى فيديو</button>
 
     </div>
 
@@ -54,8 +46,8 @@
         <h2 class="pt-5   font-size-19-b   mb-4">  <i class="mdi mdi-cellphone-play "> </i> خدمة ستوري انستقرام</h2>
         <p class="m-3 font-size-19 mb-5 "> نحن نفهم السوق جيدا و نعلم ان ستوري هي مصدر مهم لتسويق منتجك بفعالية على فيسبوك او انستقرام        </p>
 
-        <button   class="btn text-white   mb-5   " style="background-color: #b9ad8f !important;  max-width:160px ;      align-self: center;
-        margin: 0 !important;">  <i class="mdi mdi-cart icon-home"> </i>  طلب  الخدمة </button>
+        <button   routerLink="/call"   class="btn text-white   mb-5   " style="background-color: #b9ad8f !important;  max-width:18rem ;      align-self: center;
+        margin: 0 !important;">  <i class="mdi mdi-cart icon-home"> </i>  احتاج الى فيديو </button>
         <img  style="    right: 0;" class="img-card-bg" src="https://manon.qodeinteractive.com/wp-content/uploads/2019/01/home-8-rev-img-1.png">
 
     </div>
@@ -71,9 +63,6 @@
 
 
 
-
-
-
 <div class="container mt-5"  >
   <h1 class="hero-2-title p-5 m-2 text-white  text-right  text-shadow  ">
     <i class="mdi  mdi-arrow-left  icon-home"> </i>
@@ -83,12 +72,12 @@
   </h1>
 
 
-  <div class="text-white d-flex flex-wrap justify-content-around"      >
+  <div class="text-white d-flex flex-wrap justify-content-around">
 
 
-    <div class=" card-photo-service m-4    text-center  "  >
+    <div class=" card-photo-service m-4 text-center  "  (click)="open(content1)" >
       <img   class="img-portflio" src="https://i.imgur.com/Z0dOqOK.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <a   class="intro-banner-vdo-play-btn pinkBg" target="_blank" >
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
@@ -96,9 +85,9 @@
         </a>
     </div>
 
-    <div class=" card-photo-service m-4    text-center  "  >
+    <div class=" card-photo-service m-4    text-center  "  (click)="open(content2)" >
       <img   class="img-portflio" src="https://i.imgur.com/LhV8e9W.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <a   class="intro-banner-vdo-play-btn pinkBg" target="_blank"  >
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
@@ -107,9 +96,9 @@
     </div>
 
 
-    <div class=" card-photo-service m-4    text-center  "  >
+    <div class=" card-photo-service m-4    text-center  " (click)="open(content3)"  >
       <img   class="img-portflio" src="https://i.imgur.com/XIimTeZ.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <a   class="intro-banner-vdo-play-btn pinkBg" target="_blank"  >
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
@@ -117,9 +106,9 @@
         </a>
     </div>
 
-    <div class=" card-photo-service m-4    text-center  "  >
+    <div class=" card-photo-service m-4    text-center  " (click)="open(content4)"  >
       <img   class="img-portflio" src="https://i.imgur.com/VyL4djv.jpg" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+      <a  class="intro-banner-vdo-play-btn pinkBg" target="_blank" >
         <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
         <span class="ripple pinkBg"></span>
         <span class="ripple pinkBg"></span>
@@ -134,71 +123,29 @@
 </div>
 </div>
 
-<!--
-<div class="container mt-5 mb-5"  >
-  <h1 class="hero-2-title p-5 m-2 text-white  text-right  text-shadow  ">
-    <i class="mdi mdi-arrow-left icon-home"> </i>
-    مقاطع فيديو موجهة لمواقع تواصل اجتماعي
-  </h1>
+<ng-template #content1 let-modal  >
+
+  <iframe style="height: 50rem; width: 80rem !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/zup2VNgGMMQ" allowfullscreen></iframe>
+
+</ng-template>
 
 
-  <div class="text-white d-flex flex-wrap justify-content-around"      >
+<ng-template #content2 let-modal  >
 
+  <iframe style="height: 50rem; width: 80rem !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/mqphJN752z4  " allowfullscreen></iframe>
 
-    <div class=" card-photo-service m-4    text-center  "  >
-      <img   class="img-portflio" src="https://cdn.dribbble.com/users/1731254/screenshots/14955581/media/5846ef83276506f8bda12e314b304bf1.png?compress=1&resize=300x225" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
-        <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        </a>
-    </div>
-
-
-    <div class=" card-photo-service m-4    text-center  "  >
-      <img   class="img-portflio" src="https://cdn.dribbble.com/users/1731254/screenshots/14955581/media/5846ef83276506f8bda12e314b304bf1.png?compress=1&resize=300x225" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
-        <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        </a>
-    </div>
+</ng-template>
 
 
 
+<ng-template #content3 let-modal  >
 
-    <div class=" card-photo-service m-4    text-center  "  >
-      <img   class="img-portflio" src="https://cdn.dribbble.com/users/1731254/screenshots/14955581/media/5846ef83276506f8bda12e314b304bf1.png?compress=1&resize=300x225" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
-        <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        </a>
-    </div>
+  <iframe style="height: 50rem; width: 80rem !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/iTDfTek0jQE" allowfullscreen></iframe>
 
+</ng-template>
 
+<ng-template #content4 let-modal  >
 
+  <iframe style="height: 50rem; width: 80rem !important;" class="embed-responsive-item" src="https://www.youtube.com/embed/l-Zn5ejwrio" allowfullscreen></iframe>
 
-    <div class=" card-photo-service m-4    text-center  "  >
-      <img   class="img-portflio" src="https://cdn.dribbble.com/users/1731254/screenshots/14955581/media/5846ef83276506f8bda12e314b304bf1.png?compress=1&resize=300x225" alt="">
-      <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
-        <i class="mdi mdi-play icon-play text-white " aria-hidden="true"></i>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        <span class="ripple pinkBg"></span>
-        </a>
-    </div>
-
-
-
-
-
-
-
-</div>
-</div>
-
-  -->
+</ng-template>
